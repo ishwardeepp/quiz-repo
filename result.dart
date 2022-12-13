@@ -24,7 +24,7 @@ class Result extends StatelessWidget {
     return resultText;
   }
   //to get a response for your answers
-  //here "get" is a getter
+  //here "get" is a method
   /*a getter is a method used to retrieve a particular class field and save it 
     in a variable*/
 
