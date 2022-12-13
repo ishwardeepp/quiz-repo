@@ -10,15 +10,14 @@ class Result extends StatelessWidget {
   Result(this.resultScore, this.resethandler); //defining a constructor
 
   String get resultPhrase {
-    var resultText =
-        "You love romanticism and the world around you, you love humanity, you love people :)";
-    if (resultScore < 50 && resultScore >= 39) {
+    var resultText = "The Quiz Ended :)";
+    if (resultScore < 50 && resultScore >= 41) {
       resultText =
           "You love romanticism and the world around you, you love humanity, you love people :)";
-    } else if (resultScore < 50 && resultScore >= 39) {
+    } else if (resultScore < 41 && resultScore >= 32) {
       resultText =
           "You are very considerate about peoples views and feelings :)";
-    } else if (resultScore < 28) {
+    } else if (resultScore < 32) {
       resultText =
           "You the softer things in life yet you want to live in the moment :)";
     }
