@@ -19,7 +19,7 @@ class Result extends StatelessWidget {
           "You are very considerate about peoples views and feelings :)";
     } else if (resultScore < 32) {
       resultText =
-          "You the softer things in life yet you want to live in the moment :)";
+          "You the love softer things in life yet you want to live in the moment and be content :)";
     }
     return resultText;
   }
